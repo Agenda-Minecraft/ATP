@@ -1,0 +1,12 @@
+name: ATP
+version: 0.0.1
+main: cat.kiwi.minecraft.atp.ATPPlugin
+load: STARTUP
+authors: [ moeKiwiSAMA ]
+description: Agenda switch server
+api-version: 1.19
+commands:
+    atp:
+        description: Agenda switch server
+        usage: /atp <server>
+        aliases: [ atp ]
